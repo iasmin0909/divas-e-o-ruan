@@ -45,3 +45,33 @@
         background-color: #8B4513;
         color: white;
     }
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    img.receita {
+        max-height: 250px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    ul, ol {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+}
+
